@@ -33,6 +33,12 @@ import com.gof.game.screen.GameScreen;
 import com.gof.game.util.BackgroundColor;
 import com.gof.game.util.Brush;
 
+/*
+ * The Hud class has the responsibility of managing the GameScreen's UI, holding the Stage where all widgets (buttons, sliders, tables...) are placed.
+ * Every widget is subscribed to one or more Listener-s (either Click, Touch, Change etc. types), which react to the user's inputs according to the widget's function.
+ * The Hud class represents the Controller element of the Model View Controller architectural pattern.
+ * The Hud is rendered every frame through the render() method.
+ */
 public class Hud {
 	
 	private Stage stage;

@@ -4,7 +4,12 @@ import com.badlogic.gdx.Game;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
-import com.gof.game.screen.MainMenuScreen;
+import com.gof.game.screen.IntroScreen;
+
+/*
+ * The GameRunner class has the responsibility to create and hold the application window context, 
+ * and is an entry point for the LibGdx game engine control methods.
+ */
 
 public class GameRunner extends Game {
 	public ShapeRenderer shapeRenderer;
@@ -21,7 +26,7 @@ public class GameRunner extends Game {
 		
 		// Use LibGDX's default Arial font.
 		font = new BitmapFont();
-		this.setScreen(new MainMenuScreen(this, height, width));
+		this.setScreen(new IntroScreen(this, height, width));
 	}
 
 	@Override

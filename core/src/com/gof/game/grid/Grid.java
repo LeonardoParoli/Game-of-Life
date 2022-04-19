@@ -12,6 +12,11 @@ import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.gof.game.util.Brush;
 
+/*
+ * The Grid class is responsible of holding the information about the simulation cells, their position, their state and to properly update 
+ * each simulation cycle through the combined application of the Game of Life's rules and any other overriding behavior each Cell with a specific CellType might have.
+ * The Grid class impersonates the Model entity in the Model View Controller architectural pattern. 
+ */
 public class Grid {
 	private Cell[][] cells;
 	private HashMap<String, Cell> living;

@@ -15,7 +15,12 @@ import com.gof.game.grid.Grid;
 import com.gof.game.GameRunner;
 import com.gof.game.util.BackgroundColor;
 
-public class MainMenuScreen implements Screen {
+/*
+ * The IntroScreen class implements a LibGDX Screen and is used as an introduction when the application starts.
+ * It renders a small description of the application, and also handles a randomly generated Game of Life simulation in the background.
+ * The IntroScreen class represents a View element in the Model View Controller architectural pattern.
+ */
+public class IntroScreen implements Screen {
 	final GameRunner game;
 	private Stage stage;
 	private Grid grid;
@@ -23,7 +28,7 @@ public class MainMenuScreen implements Screen {
 	int height;
 	int width;
 
-	public MainMenuScreen(final GameRunner game, int height, int width) {
+	public IntroScreen(final GameRunner game, int height, int width) {
 		this.game = game;
 		this.height = height;
 		this.width = width;

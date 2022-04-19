@@ -14,6 +14,15 @@ import com.gof.game.grid.Grid;
 import com.gof.game.hud.Hud;
 import com.gof.game.GameRunner;
 
+/*
+ * The GameScreen class implements a LibGDX Screen and is used to render the simulation of the Game of Life.
+ * It renders a grid of a specific height and width, specified in the OptionScreen screen that created it, loads graphical and audio resources for the grid's cells
+ * and setups the Camera at the center of the simulated world.
+ * Every frame, the GameScreen object calls the render() method, and is responsible of checking if the time elapsed between frames is enough to trigger a simulation update, called through
+ * the Grid's updateGrid() method.
+ * It's also responsible of an Hud object, which manages the user interaction with the application, through every frame. 
+ * The GameScreen class represents a View element in the Model View Controller architectural pattern.
+ */
 
 public class GameScreen implements Screen {
 

@@ -23,7 +23,16 @@ import com.badlogic.gdx.utils.viewport.ScreenViewport;
 import com.gof.game.grid.Grid;
 import com.gof.game.GameRunner;
 import com.gof.game.util.BackgroundColor;
-
+/*
+ * The OptionScreen class implements a LibGDX Screen and an OptionScreen object is created following the disposal of an IntroScreen object.
+ * It renders a menu composed of tables of buttons, enabling the user to:
+ * -create a new simulation
+ * -select a specific grid size for a new simulation
+ * -load a previously saved simulation
+ * -choose a previously saved simulation from a list.
+ * It also handles a randomly generated Game of Life simulation in the background.
+ * The OptionScreen class represents a View element in the Model View Controller architectural pattern.
+ */
 public class OptionScreen implements Screen {
 	final GameRunner game;
 	private Stage stage;

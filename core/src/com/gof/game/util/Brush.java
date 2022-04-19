@@ -2,6 +2,10 @@ package com.gof.game.util;
 
 import com.gof.game.grid.CellType;
 
+/*
+ * Support class holding the information about the user input's brush type and size.
+ * Potential abstract class to implement new kinds of brush.
+ */
 public class Brush {
 	private int size;
 	private CellType type;

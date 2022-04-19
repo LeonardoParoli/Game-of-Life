@@ -8,6 +8,9 @@ import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.scenes.scene2d.utils.Drawable;
 
+/*
+ * Support class holding methods and attributes regarding the background color for Table widgets and Containers.
+ */
 public class BackgroundColor implements Drawable {
 	
 	private Float x;

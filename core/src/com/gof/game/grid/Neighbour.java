@@ -1,5 +1,9 @@
 package com.gof.game.grid;
 
+/*
+ * A support class responsible of holding the information about a cell's neighbour during the Grid updateGrid method. 
+ */
+
 public class Neighbour {
 	private short number;
 	private boolean corruptible;

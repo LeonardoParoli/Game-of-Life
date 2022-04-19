@@ -5,6 +5,11 @@ import java.util.HashMap;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 
+/*
+ * An implementation of the GridRenderer interface class. 
+ * This implementation renders each living cell and sets their color based on their CellType.
+ * The render method requires a LibGdx ShapeRenderer to properly render the cell's pixels.
+ */
 public class ClassicGridRenderer implements GridRenderer {
 
 	@Override

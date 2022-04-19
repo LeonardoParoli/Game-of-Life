@@ -18,6 +18,12 @@ import com.gof.game.GameRunner;
 import com.gof.game.grid.Grid;
 import com.gof.game.util.BackgroundColor;
 
+/*
+ * The TutorialScreen class implements a LibGDX Screen and is used to render a small
+ * description of the possible interactions when a GameScreen view is visible and a simulation is running.
+ * It also handles a randomly generated Game of Life simulation in the background.
+ * The TutorialScreen class represents a View element in the Model View Controller architectural pattern.
+ */
 public class TutorialScreen implements Screen {
 	final GameRunner game;
 	private Stage stage;

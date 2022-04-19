@@ -1,5 +1,9 @@
 package com.gof.game.grid;
 
+/*
+ *  The Cell class is responsible of holding the information regarding the Grid's cell position, its CellType, if it's alive by exposing getter/setter methods.
+ *  Each Cell also exposes a method to convert the object's information into a String (toString()), or create a new Cell object through the static method fromString(String cellString).
+ */
 public class Cell {
 	private int x;
 	private int y;

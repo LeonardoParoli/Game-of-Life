@@ -62,6 +62,9 @@ public class GameScreen implements Screen {
 		this.paused = true;
 		this.zoomed = false;
 		this.grid = grid;
+		
+		this.width = width;
+		this.height = height;
 
 		// load background music
 		backgroundMusic = Gdx.audio.newMusic(Gdx.files.internal("background_music2.wav"));

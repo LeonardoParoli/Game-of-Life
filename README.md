@@ -52,7 +52,7 @@ toggle the camera zoom, select which brush type to use, the brush size, the simu
 ![yellowCellTexture](https://user-images.githubusercontent.com/87710818/164041051-fe977b66-550b-4259-8a3e-0086b4c67838.JPG)
  **Yellow cell type**: also called Immortal, is a cell that doesn't respect the 3 fundamental rules: it cannot die and does not need to reproduce, but may count as a neighbour for other types of cells. 
 
-# Instructions to test and review.
+# Instructions to test and review
 
 For code reviewing purposes, the application classes can be found inside the **Core** folder from the root of the project.
 
